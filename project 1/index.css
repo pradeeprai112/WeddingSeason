@@ -1,0 +1,237 @@
+.Backgroundimage {
+	background-image: url("images/wedding5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	width: 100%;
+	/*height: 720px;*/ /*200px*/
+}
+
+#fontcolor a {
+	color: #FFFFFF;
+}
+
+#fontcolor ul {
+	color: #FFFFFF;
+}
+
+/*#fontcolor ul:hover {
+	color: yellow;
+}*/
+
+
+.img-container img { 
+	position: absolute;
+	z-index: -1;
+}
+
+
+.fontadjust {
+  margin: 0;
+  padding: 9% 5% 0% 55%;
+}
+
+/*.ourspeciality {
+	position: absolute;
+	z-index: -1;
+}
+*/
+.button {
+  border-radius: 15px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.7857vw; /*25px*/
+  padding: 10px
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px; /*-20px*/
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px; /*25px*/
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#thumbnailcircle {
+	background-color: transparent; 
+	border-style: none;
+	color: #ffd700;
+}
+
+#thumbnailcircle p {
+	
+	color: #ffd700;
+}
+
+#thumbnailcircle h3 {
+	
+	color: #ffffff;
+}
+
+
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+.gradient {
+	background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+/*height: 35.71vw;*/
+}
+
+.headingstyling {
+	border-bottom: 2px solid orange; 
+	display: inline-block; 
+	padding-bottom: 20px;
+	color: #ffd700;
+}
+
+li:hover {
+  background-color: orange;
+   -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+li {
+  font-size: 20px;
+  transition: transform .2s;
+}
+
+#logo {
+  padding-top: 5px;
+  transition: transform .2s;
+}
+
+#logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/wedding18.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("images/wedding17.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("images/wedding19.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftrightborder {
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+}
+
+footer {
+  background-color:rgb(59,68,77);
+}
+.footer-col-1 {
+  width:18.21vw; /*255px*/
+  float:left;
+}
+.footer-col-1 h1 {
+  margin-top:0;
+  padding-top:2.71vw; /*38px*/
+  font-size:3vw; /*42px*/
+  color:rgb(222,223,224);
+  letter-spacing:-.14vw; /*-2px*/
+}
+.footer-col-2 {
+  width:8.71vw; /*122px*/
+  float:left;
+  margin-top:2.71vw; /*38px*/
+}
+.footer-col-2 ul, .footer-col-3 ul{
+  padding-top:.85vw; /*12px*/
+  padding-left:0;
+  list-style:none;
+}
+.footer-col-2 h4,.footer-col-3 h4 {
+  margin-top:0;
+  margin-bottom:0;
+  color:white;
+}
+.footer-col-2 li, .footer-col-3 li{
+  padding-top:.5vw; /*7px*/
+  color:rgb(222,223,224);
+  font-size:.71vw; /*10px*/
+}
+.footer-col-3{
+  width:16.64vw; /*233px*/
+  float:left;
+  margin-top:2.71vw; /*38px*/
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.center {
+  color:rgb(222,223,224);
+  display:block;
+  text-align:center;
+  margin-top:1.42vw; /*20px*/
+}
